@@ -1,0 +1,85 @@
+/* External CSS */
+
+body{
+    font-family:"kanit", sans-serif;
+    background-color:rgb(117, 188, 238);
+}
+
+h1{
+    font-family:"kanit", sans-serif;
+    color:rgb(194, 86, 194);
+    text-align:center;
+    font-size: 40px;
+}
+
+h2{
+    font-family:"kanit", sans-serif;
+    color:rgb(194, 86, 194);
+    text-align: center;
+}
+/** CLASSES **/
+
+/* Each individual tile */
+.tile{
+    font-family:"", sans-serif;
+    border: 1px solid rgb(194, 86, 194);
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+
+/* Contains all the tiles */
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+    font-family:"kanit", sans-serif;
+}
+
+.controls {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+#reset {
+    background-color:rgb(117, 188, 238);
+    background-color:rgb(117, 188, 238);
+    border:square;
+    border-color:rgb(169, 74, 169);
+    color:rgb(194, 86, 194);
+}
+.display{
+    color:rgb(169, 74, 169);
+    font: size 24px;
+    text-align: center;
+}
+
+.scorecard th{
+    padding:10px;
+}
+
+.hide{
+    display:none;
+}
+
+.reset-scoreboard{
+    background-color: rgb(117, 188, 238);
+    color:rgb(194, 86, 194);
+    
+}
+
+.X-display{
+    color:black;
+}
+
+.O-display{
+    color:white;
+}

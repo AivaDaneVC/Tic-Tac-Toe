@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- Attach CSS -->
+    <link rel="stylesheet" href = "Tic-Tac-toe.css">
+</head>
+<body>
+
+    <h1> Tic Tac Toe </h1>
+    <h2> Player <span class = "display-player x-display">X</span>'s Turn</h2>
+    
+<!-- Game Board -->
+    <section class="container">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+    </section>
+    <section class="display announcer hide" ></section>
+    <section class = "controls">
+        <button id = "reset">Reset</button>
+    </section>
+
+    <table bourder ="1" class ="scorecard">
+        <tr>
+           <th>player x  </th>
+           <th>player o  </th>
+           <th>tie</th>
+        </tr>
+        <tr>
+            <td id = "x-score">0</td>
+            <td id = "o-score">0</td>
+            <td id = "tie-score">0</td>
+        </tr>
+    </table>
+    <button class = "reset-scoreboard"onclick = "resetScoreboard();">Reset Scoreboard</button>
+    <!-- Attach JavaScript -->
+    <script src="Tic-Tac-Toe.js"></script>
+</body>
+
+
+</html>
+  
